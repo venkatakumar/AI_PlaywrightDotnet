@@ -1,0 +1,44 @@
+# .gitignore for Playwright C# POM project
+# Build and publish folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Playwright output
+.playwright/
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+# Package directories
+packages/
+# Project lock files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Others
+*.tmp
+*.bak
+*.swp
