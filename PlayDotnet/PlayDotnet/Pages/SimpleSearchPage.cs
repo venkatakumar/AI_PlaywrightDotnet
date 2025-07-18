@@ -13,12 +13,15 @@ namespace PlayDotnet.Pages
 
         public async Task EnterSearchKeyword(string keyword)
         {
-            await _page.FillAsync("#simpleSearchString", keyword);
+            var locator = _page.Locator("[aria-label='Enter your search']");
+            await locator.WaitForAsync(new LocatorWaitForOptions { State = WaitForSelectorState.Visible });
+            await locator.FillAsync(keyword);
         }
 
         public async Task ClickSearchButton()
         {
-            await _page.ClickAsync("#simpleSearchButton");
+            var locator = _page.Locator("[aria-label='Enter your search']");
+            await locator.PressAsync("Enter");
         }
 
         public async Task<bool> IsResultWithKeywordPresent(string keyword)

@@ -500,3 +500,4 @@ C:\Users\dhana\source\repos\Playwright\AI_PlaywrightDotnet\PlayDotnet\PlayDotnet
 C:\Users\dhana\source\repos\Playwright\AI_PlaywrightDotnet\PlayDotnet\PlayDotnet\obj\Debug\net8.0\PlayDotnet.pdb
 C:\Users\dhana\source\repos\Playwright\AI_PlaywrightDotnet\PlayDotnet\PlayDotnet\obj\Debug\net8.0\PlayDotnet.genruntimeconfig.cache
 C:\Users\dhana\source\repos\Playwright\AI_PlaywrightDotnet\PlayDotnet\PlayDotnet\obj\Debug\net8.0\ref\PlayDotnet.dll
+C:\Users\dhana\source\repos\Playwright\AI_PlaywrightDotnet\PlayDotnet\PlayDotnet\obj\Debug\net8.0\PlayDotnet.sourcelink.json

@@ -7,9 +7,9 @@ namespace PlayDotnet.Tests
 {
     public class SimpleSearchTests
     {
-        private IBrowser _browser;
-        private IPage _page;
-        private IPlaywright _playwright;
+        private IBrowser? _browser;
+        private IPage? _page;
+        private IPlaywright? _playwright;
 
         [SetUp]
         public async Task Setup()
@@ -22,8 +22,11 @@ namespace PlayDotnet.Tests
         [TearDown]
         public async Task Teardown()
         {
-            await _browser.CloseAsync();
-            _playwright.Dispose();
+            if (_browser != null)
+            {
+                await _browser.CloseAsync();
+            }
+            _playwright?.Dispose();
         }
 
         [Test]
@@ -34,7 +37,7 @@ namespace PlayDotnet.Tests
             await searchPage.EnterSearchKeyword("bt1");
             await searchPage.ClickSearchButton();
             await _page.WaitForTimeoutAsync(3000); // Wait for results to load
-            Assert.IsTrue(await searchPage.IsResultWithKeywordPresent("bt1"), "Search results should contain 'bt1'");
+            Assert.That(await searchPage.IsResultWithKeywordPresent("bt1"), Is.True, "Search results should contain 'bt1'");
         }
     }
 }
