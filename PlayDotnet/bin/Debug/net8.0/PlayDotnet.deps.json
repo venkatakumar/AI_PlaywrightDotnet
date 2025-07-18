@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "PlayDotnet/1.0.0": {
         "dependencies": {
+          "FluentAssertions": "8.5.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "Microsoft.Playwright": "1.53.0",
           "NUnit": "4.3.2",
@@ -15,6 +16,14 @@
         },
         "runtime": {
           "PlayDotnet.dll": {}
+        }
+      },
+      "FluentAssertions/8.5.0": {
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "8.5.0.0",
+            "fileVersion": "8.5.0.0"
+          }
         }
       },
       "Microsoft.ApplicationInsights/2.22.0": {
@@ -583,6 +592,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentAssertions/8.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VN3eH+jnwSBbEDK1/Z7Sg8Mw6O/zHLKK58OueRpG4rIzLxtlJYTUkUieGee5C4Ymhjkiim0ag2H/0Nc8PfNmaA==",
+      "path": "fluentassertions/8.5.0",
+      "hashPath": "fluentassertions.8.5.0.nupkg.sha512"
     },
     "Microsoft.ApplicationInsights/2.22.0": {
       "type": "package",

@@ -3,6 +3,8 @@ using Microsoft.Playwright;
 using NUnit.Framework;
 using PlayDotnet.Pages;
 
+using FluentAssertions;
+
 namespace PlayDotnet.Tests
 {
     public class SimpleSearchTests
@@ -37,7 +39,7 @@ namespace PlayDotnet.Tests
             await searchPage.EnterSearchKeyword("bt1");
             await searchPage.ClickSearchButton();
             await _page.WaitForTimeoutAsync(3000); // Wait for results to load
-            Assert.That(await searchPage.IsResultWithKeywordPresent("bt1"), Is.True, "Search results should contain 'bt1'");
+            (await searchPage.IsResultWithKeywordPresent("bt1")).Should().BeTrue("Search results should contain 'bt1'");
         }
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4Ju0zw3VnJs=",
+  "dgSpecHash": "u1OAVmv7VH4=",
   "success": true,
   "projectFilePath": "C:\\Users\\dhana\\source\\repos\\Playwright\\AI_PlaywrightDotnet\\PlayDotnet\\PlayDotnet.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dhana\\.nuget\\packages\\fluentassertions\\8.5.0\\fluentassertions.8.5.0.nupkg.sha512",
     "C:\\Users\\dhana\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\dhana\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\dhana\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
