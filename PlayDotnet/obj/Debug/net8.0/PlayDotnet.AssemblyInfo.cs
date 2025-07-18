@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlayDotnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e878c362b86c5412ffcfbd6031deb95caebe56b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee8047c96843616bc6f9f163b841fcde614573de")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlayDotnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlayDotnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

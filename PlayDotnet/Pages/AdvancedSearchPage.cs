@@ -12,16 +12,16 @@ namespace PlayDotnet.Pages
             _page = page;
         }
 
-        public async Task EnterSearchKeyword(string keyword)
+        public async Task EnterAddressSearchKeyword(string keyword)
         {
-            // Assuming the advanced search input has a different selector
-            await _page.FillAsync("#advancedSearchText", keyword);
+            var locator = _page.Locator("[aria-label='Address-input']");
+            await locator.WaitForAsync(new LocatorWaitForOptions { State = WaitForSelectorState.Visible });
+            await locator.FillAsync(keyword);
         }
 
         public async Task ClickSearchButton()
         {
-            // Assuming the advanced search button has a different selector
-            await _page.ClickAsync("#advancedSearchButton");
+            await _page.ClickAsync("button:has-text('Search')");
         }
 
         public async Task<bool> IsResultWithKeywordPresent(string keyword)
