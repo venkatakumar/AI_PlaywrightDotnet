@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayDotnet", "PlayDotnet.csproj", "{787D1A8C-700B-EEF6-316C-81253B42A35D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayDotnet", "PlayDotnet\PlayDotnet.csproj", "{06E35F01-4CE5-3B91-1279-F3FCF214F3D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{787D1A8C-700B-EEF6-316C-81253B42A35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{787D1A8C-700B-EEF6-316C-81253B42A35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{787D1A8C-700B-EEF6-316C-81253B42A35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{787D1A8C-700B-EEF6-316C-81253B42A35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E35F01-4CE5-3B91-1279-F3FCF214F3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E35F01-4CE5-3B91-1279-F3FCF214F3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E35F01-4CE5-3B91-1279-F3FCF214F3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E35F01-4CE5-3B91-1279-F3FCF214F3D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {49DADDA8-9AF9-4779-ADE4-5067B6B3D10A}
+		SolutionGuid = {10D8CAC1-EF6F-4364-B1E1-9B80CBA5376E}
 	EndGlobalSection
 EndGlobal

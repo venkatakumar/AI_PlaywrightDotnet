@@ -2262,11 +2262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dhana\\source\\repos\\Playwright\\AI_PlaywrightDotnet\\PlayDotnet\\PlayDotnet\\PlayDotnet.csproj",
+      "projectUniqueName": "C:\\Users\\dhana\\source\\repos\\Playwright\\AI_PlaywrightDotnet\\PlayDotnet\\PlayDotnet.csproj",
       "projectName": "PlayDotnet",
-      "projectPath": "C:\\Users\\dhana\\source\\repos\\Playwright\\AI_PlaywrightDotnet\\PlayDotnet\\PlayDotnet\\PlayDotnet.csproj",
+      "projectPath": "C:\\Users\\dhana\\source\\repos\\Playwright\\AI_PlaywrightDotnet\\PlayDotnet\\PlayDotnet.csproj",
       "packagesPath": "C:\\Users\\dhana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dhana\\source\\repos\\Playwright\\AI_PlaywrightDotnet\\PlayDotnet\\PlayDotnet\\obj\\",
+      "outputPath": "C:\\Users\\dhana\\source\\repos\\Playwright\\AI_PlaywrightDotnet\\PlayDotnet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dhana\\AppData\\Roaming\\NuGet\\NuGet.Config",
